@@ -190,6 +190,36 @@ preserve who's closest to the podium), but globally ambiguous. Alpoge's
 polynomial formula is just the coordinate algebra for this operation, after
 choosing the right coordinates on both sides.
 
+### Cusp catastrophe interpretation (Claude artifact)
+
+Source: https://claude.ai/public/artifacts/f6f4706a-c4d9-4630-b454-859057c08527
+
+The 2D quotient map (from the GPT-5.6 reduction) can be visualized by plotting
+the input w as height over the output (P, Q) plane. The resulting surface is a
+**cusp catastrophe** — the standard object in bifurcation theory for exactly this
+pattern: smooth everywhere, yet multi-valued over a wedge-shaped "pleated" region.
+
+- Inside the pleat: three different heights (inputs) above one ground point (output).
+- Outside: only one.
+- The fold curve (bright edge) is the discriminant locus.
+- The counterexample is the P = 0 slice through this surface.
+
+Sliding the slice past roughly P ≈ 0.16, the count drops from 3 to 1 — the
+slicing plane leaves the pleated region entirely.
+
+This connects the counterexample to well-studied phenomena in optics (caustics),
+structural engineering (buckling), and phase transitions. The folding is not
+exotic — it's a completely standard bifurcation shape, hiding inside a polynomial
+map with constant Jacobian.
+
+### Naskręcki's unified exposition (Jupyter Book + Manim)
+
+Source: https://x.com/nasqret/status/2079384176269177188
+
+Bartosz Naskręcki created a repository with a Jupyter Book and Manim-animated
+video tutorial, uniformly explaining the three approaches (Alpoge, Andy Jiang,
+Aaron Lou). Landing page and GitHub repo linked from the tweet.
+
 ## Threads to explore
 
 ### 1. Consequences — what falls with the conjecture
